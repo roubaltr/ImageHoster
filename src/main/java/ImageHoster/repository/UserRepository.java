@@ -31,7 +31,7 @@ public class UserRepository {
         }
     }
 
-
+    //This
     //The method receives the entered username and password
     //Creates an instance of EntityManager
     //Executes JPQL query to fetch the user from User class where username is equal to received username and password is equal to received password
