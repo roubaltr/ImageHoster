@@ -44,7 +44,7 @@ public class ImageRepository {
         List<Image> resultList = query.getResultList();
         return resultList;
     }
-
+    //dhg
     //The method creates an instance of EntityManager
     //Executes JPQL query to fetch the image from the database with corresponding title
     //Returns the image in case the image is found in the database

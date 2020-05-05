@@ -96,7 +96,7 @@ public class Image {
     public String getDescription() {
         return description;
     }
-
+    //he
     public void setDescription(String description) {
         this.description = description;
     }

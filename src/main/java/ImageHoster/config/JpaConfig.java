@@ -21,6 +21,7 @@ public class JpaConfig {
 // here you can add Drive Manager object
     @Bean
     public DataSource dataSource() {
+        //hihhjdvchg
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setDriverClassName("org.postgresql.Driver");
         ds.setUrl("jdbc:postgresql://localhost:5432/imageHoster");
