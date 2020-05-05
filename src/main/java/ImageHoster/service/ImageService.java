@@ -41,7 +41,7 @@ public class ImageService {
 
     //The method calls the updateImage() method in the Repository and passes the Image to be updated in the database
 
-
+// the method calls the updateImage() which is used for evrything
     //The method calls the deleteImage() method in the Repository and passes the Image id of the image to be deleted in the database
 
     public void deleteImage(Integer id) {

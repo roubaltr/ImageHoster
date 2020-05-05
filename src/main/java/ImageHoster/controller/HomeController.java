@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @Controller
+// make another class and then main function:
 public class HomeController {
 
     @Autowired

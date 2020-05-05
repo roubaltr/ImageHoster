@@ -23,7 +23,7 @@ public class TagRepository {
         }
         return tag;
     }
-
+// make object in this
     public Tag findTag(String tagName) {
         EntityManager em = emf.createEntityManager();
         try {
