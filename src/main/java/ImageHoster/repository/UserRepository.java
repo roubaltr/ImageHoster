@@ -30,7 +30,8 @@ public class UserRepository {
             transaction.rollback();
         }
     }
-
+// click after that 
+//return and catch here
 
     //The method receives the entered username and password
     //Creates an instance of EntityManager

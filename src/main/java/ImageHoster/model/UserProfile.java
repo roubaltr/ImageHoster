@@ -45,7 +45,7 @@ public class UserProfile {
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
-
+// return male in that 
     public String getEmailAddress() {
         return emailAddress;
     }

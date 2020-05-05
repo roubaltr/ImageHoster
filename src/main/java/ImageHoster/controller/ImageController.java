@@ -34,7 +34,7 @@ public class ImageController {
         model.addAttribute("images", images);
         return "images";
     }
-
+    
     //This method is called when the details of the specific image with corresponding title are to be displayed
     //The logic is to get the image from the databse with corresponding title. After getting the image from the database the details are shown
     //First receive the dynamic parameter in the incoming request URL in a string variable 'title' and also the Model type object

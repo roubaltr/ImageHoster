@@ -76,7 +76,7 @@ public class User {
     public List<Image> getImages() {
         return images;
     }
-
+// this is image put this. in this
     public void setImages(List<Image> images) {
         this.images = images;
     }

@@ -58,7 +58,8 @@ public class ImageRepository {
             return null;
         }
     }
-
+// okjkokn
+//dsfjbijds
 
     public List<Image> getImageByUserId(Integer userId) {
         EntityManager em = emf.createEntityManager();
