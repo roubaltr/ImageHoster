@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class JpaConfig {
-
+// make two object 
     @Bean
     public EntityManagerFactory entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean emfb = new LocalContainerEntityManagerFactoryBean();
@@ -18,7 +18,7 @@ public class JpaConfig {
         emfb.afterPropertiesSet();
         return emfb.getObject();
     }
-
+// here you can add Drive Manager object
     @Bean
     public DataSource dataSource() {
         //hihhjdvchg

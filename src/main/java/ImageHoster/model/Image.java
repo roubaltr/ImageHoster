@@ -53,7 +53,7 @@ public class Image {
 
     public Image() {
     }
-
+ // add public in this
     public Image(int i, String s, String s1, Date date) {
         this.id = i;
         this.title = s;
